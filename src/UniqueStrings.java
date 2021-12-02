@@ -12,12 +12,11 @@ public class UniqueStrings {
 		// TODO Auto-generated method stub
 		String input = "aaabbcccdabc";
 		//output - a3b2c3d1a1b1c1
-		List list = new ArrayList<>();
+		//List list = new ArrayList<>();
 		
 		
 		char[] charArr = input.toCharArray();
 		Map<Character, Integer> map = new HashMap<>();
-		int value = 0;
 		
 		for(char c: charArr) {
 			if(map.containsKey(c)) {
